@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'PraxisKit' target in the 'PraxisKit' project
+//
+
+#ifdef __OBJC__
+  #import <Foundation/Foundation.h>
+#endif
