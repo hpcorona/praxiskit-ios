@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7969AEE15C4A8B40046023C /* UIPlaceHolderTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = A7969AEC15C4A8B40046023C /* UIPlaceHolderTextView.h */; };
+		A7969AEF15C4A8B40046023C /* UIPlaceHolderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = A7969AED15C4A8B40046023C /* UIPlaceHolderTextView.m */; };
 		A86EDE3C15BFD6D200834EB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A86EDE3B15BFD6D200834EB0 /* Foundation.framework */; };
 		A86EDE9C15BFD8F700834EB0 /* NSObject_Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = A86EDE7A15BFD8F700834EB0 /* NSObject_Utils.h */; };
 		A86EDE9D15BFD8F700834EB0 /* NSObject_Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = A86EDE7B15BFD8F700834EB0 /* NSObject_Utils.m */; };
@@ -51,6 +53,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A7969AEC15C4A8B40046023C /* UIPlaceHolderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPlaceHolderTextView.h; sourceTree = "<group>"; };
+		A7969AED15C4A8B40046023C /* UIPlaceHolderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPlaceHolderTextView.m; sourceTree = "<group>"; };
 		A86EDE3815BFD6D200834EB0 /* libPraxisKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPraxisKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A86EDE3B15BFD6D200834EB0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		A86EDE3F15BFD6D200834EB0 /* PraxisKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PraxisKit-Prefix.pch"; sourceTree = "<group>"; };
@@ -112,6 +116,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A7969AEA15C4A8960046023C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				A7969AEC15C4A8B40046023C /* UIPlaceHolderTextView.h */,
+				A7969AED15C4A8B40046023C /* UIPlaceHolderTextView.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
 		A86EDE2D15BFD6D100834EB0 = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +156,7 @@
 		A86EDE3D15BFD6D200834EB0 /* PraxisKit */ = {
 			isa = PBXGroup;
 			children = (
+				A7969AEA15C4A8960046023C /* view */,
 				A86EDE7915BFD8F700834EB0 /* augmented */,
 				A86EDE7C15BFD8F700834EB0 /* data */,
 				A86EDE7F15BFD8F700834EB0 /* http */,
@@ -252,6 +266,7 @@
 				A86EDED615BFE35100834EB0 /* JSONEntity.h in Headers */,
 				A8D67F0215C06DDA00CE76C6 /* Migration.h in Headers */,
 				A8D67F0915C06EBD00CE76C6 /* Data.h in Headers */,
+				A7969AEE15C4A8B40046023C /* UIPlaceHolderTextView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +338,7 @@
 				A86EDED715BFE35100834EB0 /* JSONEntity.m in Sources */,
 				A8D67F0315C06DDA00CE76C6 /* Migration.m in Sources */,
 				A8D67F0A15C06EBD00CE76C6 /* Data.m in Sources */,
+				A7969AEF15C4A8B40046023C /* UIPlaceHolderTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
