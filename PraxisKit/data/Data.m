@@ -22,6 +22,7 @@
   
   sqlite3* _db;
   
+  NSLog(@"Database: %@",databasePath);
   if (sqlite3_open([databasePath UTF8String], &_db) != SQLITE_OK) {
     NSLog(@"No se pudo abrir la base de datos");
     _db = nil;

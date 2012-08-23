@@ -38,4 +38,18 @@
   return entities;
 }
 
++ (NSString*)NewUid:(NSString*)_pre {
+    NSString* result;
+    CFUUIDRef theUUID = CFUUIDCreate(NULL);
+    CFStringRef string = CFUUIDCreateString(NULL, theUUID);
+    CFRelease(theUUID);
+    
+    int num = (int)([[NSDate date] timeIntervalSince1970]);
+        
+    result =[NSString stringWithFormat:@"%@/%d/%@", _pre, num, string];
+    assert(result != nil);
+
+    return result;
+}
+
 @end

@@ -30,6 +30,9 @@
 - (id)initWithView:(UIView*)view withCenter:(UIView*)viewCenter;
 - (id)initWithIndicator:(UIActivityIndicatorView*)view;
 - (void)peticion:(NSString*)url notificar:(id)obj siTodoBien:(SEL)ok error:(SEL)err;
+- (void)peticionConRequest:(NSURLRequest*)req notificar:(id)obj siTodoBien:(SEL)ok error:(SEL)err;
+- (void)peticionConAttach:(NSString*)url params:(NSDictionary*)_params paramAttach:(NSString*)_param attach:(NSData*)data notificar:(id)obj siTodoBien:(SEL)ok error:(SEL)err;
+- (void)peticionConParams:(NSString*)url params:(NSDictionary*)_params notificar:(id)obj siTodoBien:(SEL)ok error:(SEL)err;
 - (void)cancelar;
 
 @end

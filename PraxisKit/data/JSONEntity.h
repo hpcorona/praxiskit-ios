@@ -13,5 +13,6 @@
 
 - (void)usingDictionary:(NSDictionary*)dictionary;
 + (NSArray*)arrayUsingJson:(NSArray*)array;
++ (NSString*)NewUid:(NSString*)_pre;
 
 @end
